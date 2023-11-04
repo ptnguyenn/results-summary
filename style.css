@@ -90,13 +90,14 @@ h2{
     margin-inline: auto;
     border-radius: 50%;
     aspect-ratio: 1 / 1;
-    color: var(--white);
 }
 
 .result-score span{
     display: inline-block;
     font-size: 5rem;
     font-weight: 700;
+    padding-top: 2rem;
+    color: var(--white);
 }
 
 h1{
