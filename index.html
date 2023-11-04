@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <!-- link html file to css file -->
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+</head>
+
+<body>
+
+  <main>
+    <!-- one div to contain the left (result) and right (summary)-->
+    <div class="grid-container">
+
+      <!-- left side / result / purple box -->
+      <div class="result">
+        <h2>Your Result</h2>
+        <!-- score / 100 --> <!-- NEED TO FIX SPACING -->
+        <div class="result-score">
+          <span>76</span> of 100
+        </div>
+
+        <div class="result-text">
+          <h1>Great</h1>
+          <p>You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </div>
+
+      <!-- right side / summary / white box -->
+      <div class="summary">
+        <h2>Summary</h2>
+
+        <!-- individual scores of each category -->
+        <div class="reaction">
+          <div class="icon-cat">
+            <img src="./assets/images/icon-reaction.svg" alt="reaction symbol" class="icon"/>
+            <span id="reaction-color">Reaction</span>
+          </div>
+          <div class="score">
+            <span>80</span> / 100
+          </div>
+        </div>
+
+        <div class="memory">
+          <div class="icon-cat">
+            <img src="./assets/images/icon-memory.svg" alt="memory symbol" class="icon"/>
+            <span id="reaction-color">Memory</span>
+          </div>
+          <div class="score">
+            <span>92</span> / 100
+          </div>
+        </div>
+
+        <div class="verbal">
+          <div class="icon-cat">
+            <img src="./assets/images/icon-verbal.svg" alt="verbal symbol" class="icon"/>
+            <span id="verbal-color">Verbal</span>
+          </div>
+          <div class="score">
+            <span>61</span> / 100
+          </div>
+        </div>
+
+        <div class="visual">
+          <div class="icon-cat">
+            <img src="./assets/images/icon-visual.svg" alt="visual symbol" class="icon"/>
+            <span id="visual-color">Visual</span>
+          </div>
+          <div class="score">
+            <span>72</span> / 100
+          </div>
+        </div>
+
+        <button type="button" class="button">Continue</button>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Phuong-Anh Nguyen</a>.
+  </div>
+</body>
+</html>
